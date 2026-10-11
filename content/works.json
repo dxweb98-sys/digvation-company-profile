@@ -1,0 +1,216 @@
+[
+  {
+    "id": "poseidon-filter",
+    "slug": "poseidon-filter",
+    "status": "published",
+    "title": {
+      "id": "Poseidon Filter",
+      "en": "Poseidon Filter"
+    },
+    "category": "website",
+    "summary": {
+      "id": "Website pemasaran baru yang memperjelas produk filter air dan membuka jalur langsung ke sales.",
+      "en": "A new marketing website that clarifies Poseidon's filtration products and opens a direct path to sales."
+    },
+    "context": {
+      "id": "Project dimulai dari nol. Brand, kategori produk, dan kontak sales perlu bertemu dalam satu website.",
+      "en": "The project started from zero. Brand, product categories, and sales contact needed to meet in one website."
+    },
+    "solution": {
+      "id": "Website responsif sebagai pusat brand, penelusuran produk, dan inquiry Poseidon.",
+      "en": "A responsive website that brings Poseidon's brand, product discovery, and inquiry into one place."
+    },
+    "result": {
+      "id": "Poseidon kini memiliki website resmi sebagai pusat brand, penelusuran produk, dan pemasaran digital.",
+      "en": "Poseidon now has an official home for its brand, product discovery, and digital marketing."
+    },
+    "preview": "website",
+    "services": [
+      {
+        "id": "Website marketing responsif",
+        "en": "Responsive marketing website"
+      },
+      {
+        "id": "Struktur brand dan produk",
+        "en": "Brand and product structure"
+      },
+      {
+        "id": "Penelusuran kategori filter air",
+        "en": "Water-filtration category discovery"
+      },
+      {
+        "id": "Jalur inquiry ke sales",
+        "en": "Inquiry path to sales"
+      },
+      {
+        "id": "Fondasi SEO dan performa",
+        "en": "SEO and performance foundation"
+      }
+    ],
+    "steps": [
+      {
+        "title": {
+          "id": "Memahami kebutuhan",
+          "en": "Understanding the need"
+        },
+        "text": {
+          "id": "Pengunjung perlu memahami manfaat dan percaya pada brand sebelum membaca spesifikasi.",
+          "en": "Visitors need to understand the value and trust the brand before reading specifications."
+        }
+      },
+      {
+        "title": {
+          "id": "Menyusun dan membangun",
+          "en": "Designing and building"
+        },
+        "text": {
+          "id": "Kami menyusun alur Home, About, Product, dan Contact; menyederhanakan kategori; lalu mendekatkan inquiry ke produk.",
+          "en": "We shaped the Home, About, Product, and Contact journeys, simplified categories, and moved inquiry closer to product context."
+        }
+      },
+      {
+        "title": {
+          "id": "Langkah berikutnya",
+          "en": "The next step"
+        },
+        "text": {
+          "id": "Berikutnya: SEO per kategori dan measurement dari traffic sampai inquiry.",
+          "en": "Next: category SEO and measurement from traffic through to inquiry."
+        }
+      }
+    ],
+    "image": "/work/poseidon-filter/cover.webp",
+    "liveUrl": "https://poseidonfilter.id/",
+    "gallery": ["/work/poseidon-filter/product.webp"],
+    "year": 2026,
+    "industry": {
+      "id": "Water Filtration",
+      "en": "Water Filtration"
+    },
+    "challenge": {
+      "id": "Poseidon perlu terlihat meyakinkan secara digital tanpa membuat calon customer tenggelam dalam katalog teknis.",
+      "en": "Poseidon needed to look credible online without making potential customers fight through a dense technical catalogue."
+    },
+    "featured": true,
+    "order": 1,
+    "seo": {
+      "id": {
+        "title": "Poseidon Filter | Case Study Website",
+        "description": "Bagaimana Digvation membangun website Poseidon Filter dari awal untuk memasarkan produk water filtration, memperjelas product discovery, dan membuka jalur inquiry.",
+        "ogImage": "/work/poseidon-filter/cover.webp"
+      },
+      "en": {
+        "title": "Poseidon Filter | Website Case Study",
+        "description": "How Digvation built Poseidon Filter's website from scratch to market water-filtration products, improve product discovery, and create a clear inquiry path.",
+        "ogImage": "/work/poseidon-filter/cover.webp"
+      }
+    }
+  },
+  {
+    "id": "leaf-lab",
+    "slug": "leaf-lab",
+    "status": "published",
+    "title": {
+      "id": "Leaf Lab",
+      "en": "Leaf Lab"
+    },
+    "category": "product",
+    "summary": {
+      "id": "Media pembelajaran berbasis web yang mengubah materi fotosintesis menjadi pengalaman interaktif yang mudah dibuka dan dibagikan.",
+      "en": "A web-based learning product that turns photosynthesis material into an interactive experience that is easy to open and share."
+    },
+    "context": {
+      "id": "Pengguna perlu membuka materi dari satu link, mengikuti urutan belajar, dan berinteraksi langsung dengan bagian-bagian penting di dalamnya.",
+      "en": "Users needed to open the material from one link, follow a clear learning sequence, and interact with the important parts directly."
+    },
+    "solution": {
+      "id": "Modul pembelajaran berbasis web yang memandu pengguna dari pengantar hingga eksplorasi sel tumbuhan dan proses fotosintesis.",
+      "en": "A web-based learning module that guides users from the introduction through plant-cell exploration and the photosynthesis process."
+    },
+    "result": {
+      "id": "Leaf Lab memiliki media pembelajaran interaktif yang dapat dibuka dan dibagikan melalui satu alamat web.",
+      "en": "Leaf Lab now has an interactive learning experience that can be opened and shared through one web address."
+    },
+    "preview": "website",
+    "services": [
+      {
+        "id": "Alur pembelajaran bertahap",
+        "en": "A staged learning flow"
+      },
+      {
+        "id": "Petunjuk penggunaan yang dapat dibuka lewat QR dan link",
+        "en": "Usage guidance available by QR code and link"
+      },
+      {
+        "id": "Eksplorasi interaktif sel tumbuhan",
+        "en": "Interactive plant-cell exploration"
+      },
+      {
+        "id": "Navigasi antarbagian materi",
+        "en": "Navigation between material sections"
+      },
+      {
+        "id": "Tampilan responsif berbasis browser",
+        "en": "A responsive browser-based interface"
+      }
+    ],
+    "steps": [
+      {
+        "title": {
+          "id": "Memahami kebutuhan",
+          "en": "Understanding the need"
+        },
+        "text": {
+          "id": "Materi yang kompleks lebih mudah dipahami ketika urutannya jelas dan pengguna dapat menemukan jawabannya melalui interaksi.",
+          "en": "Complex material becomes easier to follow when the sequence is clear and users can discover answers through interaction."
+        }
+      },
+      {
+        "title": {
+          "id": "Menyusun dan membangun",
+          "en": "Designing and building"
+        },
+        "text": {
+          "id": "Kami membagi materi menjadi tahapan belajar, merancang petunjuk penggunaan, lalu membangun simulasi yang dapat digunakan langsung dari browser.",
+          "en": "We divided the material into learning stages, designed clear usage guidance, and built a simulation that runs directly in the browser."
+        }
+      },
+      {
+        "title": {
+          "id": "Langkah berikutnya",
+          "en": "The next step"
+        },
+        "text": {
+          "id": "Materi dan latihan dapat dikembangkan lebih lanjut mengikuti kebutuhan pembelajaran berikutnya.",
+          "en": "The material and exercises can grow with future learning needs."
+        }
+      }
+    ],
+    "image": "/work/leaf-lab/cover.webp",
+    "liveUrl": "https://leaf-lab.digvation.id/",
+    "gallery": ["/work/leaf-lab/product.webp"],
+    "year": 2026,
+    "industry": {
+      "id": "Pendidikan",
+      "en": "Education"
+    },
+    "challenge": {
+      "id": "Materi fotosintesis perlu disampaikan melalui pengalaman digital yang lebih mudah dijelajahi daripada dokumen statis.",
+      "en": "Photosynthesis material needed a digital experience that was easier to explore than a static document."
+    },
+    "featured": true,
+    "order": 2,
+    "seo": {
+      "id": {
+        "title": "Leaf Lab | Case Study Media Pembelajaran Interaktif",
+        "description": "Bagaimana Digvation membangun Leaf Lab sebagai media pembelajaran fotosintesis berbasis web yang interaktif, mudah dibuka, dan mudah dibagikan.",
+        "ogImage": "/work/leaf-lab/cover.webp"
+      },
+      "en": {
+        "title": "Leaf Lab | Interactive Learning Experience Case Study",
+        "description": "How Digvation built Leaf Lab as an interactive, browser-based photosynthesis learning experience that is easy to open and share.",
+        "ogImage": "/work/leaf-lab/cover.webp"
+      }
+    }
+  }
+]

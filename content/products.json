@@ -1,0 +1,256 @@
+[
+  {
+    "id": "pos",
+    "slug": "pos",
+    "status": "published",
+    "name": "Digvation POS",
+    "category": {
+      "id": "Transaksi bisnis jasa",
+      "en": "Service business transactions"
+    },
+    "summary": {
+      "id": "Pencatatan transaksi yang mengikuti alur layanan kalian.",
+      "en": "Record transactions around the way you deliver services."
+    },
+    "description": {
+      "id": "Digvation POS dibuat untuk membantu bisnis jasa menata layanan, pelanggan, transaksi, dan ringkasan pekerjaan dalam alur yang lebih jelas.",
+      "en": "Digvation POS is built to help service businesses organise services, customers, transactions and summaries in a clearer workflow."
+    },
+    "audience": {
+      "id": "Salon, barbershop, dan bisnis jasa dengan transaksi berbasis layanan.",
+      "en": "Salons, barbershops and service-based businesses."
+    },
+    "availability": {
+      "id": "Demo, fitur yang tersedia, dan opsi penyesuaian dibahas langsung bersama Digvation.",
+      "en": "Discuss a demo, available features and adaptation options directly with Digvation."
+    },
+    "preview": "pos",
+    "useCases": [
+      {
+        "id": "Tim ingin mencatat transaksi tanpa berpindah di banyak catatan.",
+        "en": "Your team wants to record transactions without juggling different notes."
+      },
+      {
+        "id": "Daftar layanan dan informasi pelanggan perlu lebih rapi.",
+        "en": "Service lists and customer information need more structure."
+      },
+      {
+        "id": "Pemilik ingin membaca ringkasan dari data yang tercatat.",
+        "en": "The owner wants to review summaries of recorded information."
+      }
+    ],
+    "steps": [
+      {
+        "title": {
+          "id": "Pilih layanan",
+          "en": "Choose a service"
+        },
+        "text": {
+          "id": "Mulai transaksi dari layanan yang diberikan.",
+          "en": "Start a transaction with the service provided."
+        }
+      },
+      {
+        "title": {
+          "id": "Catat pelanggan & pembayaran",
+          "en": "Record customer and payment"
+        },
+        "text": {
+          "id": "Lengkapi informasi yang diperlukan dalam satu alur.",
+          "en": "Complete the information needed in one workflow."
+        }
+      },
+      {
+        "title": {
+          "id": "Simpan & tinjau",
+          "en": "Save and review"
+        },
+        "text": {
+          "id": "Data yang tercatat menjadi bahan ringkasan dan pembahasan tim.",
+          "en": "Recorded information supports summaries and team discussions."
+        }
+      }
+    ],
+    "features": [
+      {
+        "title": {
+          "id": "Layanan",
+          "en": "Services"
+        },
+        "text": {
+          "id": "Daftar layanan menjadi titik awal pencatatan.",
+          "en": "A service list starts the recording flow."
+        }
+      },
+      {
+        "title": {
+          "id": "Transaksi",
+          "en": "Transactions"
+        },
+        "text": {
+          "id": "Informasi pelanggan, nilai transaksi, dan pembayaran terhubung.",
+          "en": "Customer information, transaction values and payments connect."
+        }
+      },
+      {
+        "title": {
+          "id": "Ringkasan",
+          "en": "Summaries"
+        },
+        "text": {
+          "id": "Baca data yang tercatat untuk memahami aktivitas bisnis.",
+          "en": "Review recorded information to understand business activity."
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": {
+          "id": "Bisa disesuaikan dengan bisnis saya?",
+          "en": "Can it be adapted to my business?"
+        },
+        "answer": {
+          "id": "Kita bahas kebutuhan, alur, dan fitur yang tersedia terlebih dahulu. Penyesuaian mengikuti ruang lingkup yang disepakati.",
+          "en": "We discuss your needs, workflow and available features first. Adaptations follow the agreed scope."
+        }
+      },
+      {
+        "question": {
+          "id": "Bagaimana mendapatkan demo dan harga?",
+          "en": "How do I get a demo and pricing?"
+        },
+        "answer": {
+          "id": "Mulai percakapan dengan konteks bisnis kalian. Demo dan penawaran dibahas setelah kebutuhan cukup jelas.",
+          "en": "Start a conversation with your business context. A demo and proposal follow once the needs are clear enough."
+        }
+      }
+    ]
+  },
+  {
+    "id": "workshop",
+    "slug": "workshop",
+    "status": "published",
+    "name": "Digvation Workshop",
+    "category": {
+      "id": "Operasional bengkel",
+      "en": "Workshop operations"
+    },
+    "summary": {
+      "id": "Dari penerimaan kendaraan ke pekerjaan yang lebih terarah.",
+      "en": "From vehicle intake to a clearer work process."
+    },
+    "description": {
+      "id": "Digvation Workshop dibuat untuk membantu bengkel menghubungkan informasi pelanggan, kendaraan, dan pekerjaan yang perlu ditangani.",
+      "en": "Digvation Workshop is built to help repair workshops connect customer details, vehicles and the work to be done."
+    },
+    "audience": {
+      "id": "Bengkel dan tim layanan kendaraan yang ingin merapikan penerimaan serta work order.",
+      "en": "Repair workshops and vehicle service teams organising intake and work orders."
+    },
+    "availability": {
+      "id": "Alur, fitur yang tersedia, demo, dan kebutuhan penyesuaian dibahas bersama.",
+      "en": "Discuss workflows, available features, a demo and adaptation needs together."
+    },
+    "preview": "workshop",
+    "useCases": [
+      {
+        "id": "Informasi kendaraan dan keluhan ingin dicatat lebih konsisten.",
+        "en": "You want vehicle details and reported issues recorded consistently."
+      },
+      {
+        "id": "Pekerjaan tim perlu punya work order yang jelas.",
+        "en": "Your team’s work needs a clear work order."
+      },
+      {
+        "id": "Riwayat pelanggan dan kendaraan perlu lebih mudah ditemukan.",
+        "en": "Customer and vehicle history needs to be easier to find."
+      }
+    ],
+    "steps": [
+      {
+        "title": {
+          "id": "Terima kendaraan",
+          "en": "Receive the vehicle"
+        },
+        "text": {
+          "id": "Catat pelanggan, kendaraan, dan keluhan awal.",
+          "en": "Record the customer, vehicle and reported issue."
+        }
+      },
+      {
+        "title": {
+          "id": "Buat work order",
+          "en": "Create a work order"
+        },
+        "text": {
+          "id": "Susun pekerjaan yang perlu ditinjau dan ditangani tim.",
+          "en": "Set out the work the team needs to review and handle."
+        }
+      },
+      {
+        "title": {
+          "id": "Tinjau pekerjaan",
+          "en": "Review the work"
+        },
+        "text": {
+          "id": "Gunakan catatan sebagai acuan komunikasi dan tindak lanjut.",
+          "en": "Use the records for communication and follow-up."
+        }
+      }
+    ],
+    "features": [
+      {
+        "title": {
+          "id": "Pelanggan & kendaraan",
+          "en": "Customers & vehicles"
+        },
+        "text": {
+          "id": "Informasi dasar dicatat dalam konteks yang sama.",
+          "en": "Core information is recorded in the same context."
+        }
+      },
+      {
+        "title": {
+          "id": "Work order",
+          "en": "Work orders"
+        },
+        "text": {
+          "id": "Pekerjaan memiliki acuan yang jelas untuk tim.",
+          "en": "The team has a clear reference for each job."
+        }
+      },
+      {
+        "title": {
+          "id": "Catatan pekerjaan",
+          "en": "Work records"
+        },
+        "text": {
+          "id": "Riwayat menjadi bahan pembahasan layanan berikutnya.",
+          "en": "The history supports the next service conversation."
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": {
+          "id": "Apakah cocok untuk alur bengkel kami?",
+          "en": "Does it fit our workshop’s process?"
+        },
+        "answer": {
+          "id": "Ceritakan penerimaan kendaraan dan pembagian pekerjaan di tim. Kita lihat kecocokan alurnya sebelum menentukan langkah.",
+          "en": "Tell us how you receive vehicles and assign work. We check the fit before deciding on the next step."
+        }
+      },
+      {
+        "question": {
+          "id": "Bagaimana dengan data yang sudah ada?",
+          "en": "What about our existing data?"
+        },
+        "answer": {
+          "id": "Sumber data dan kemungkinan pemindahan perlu ditinjau dahulu. Integrasi atau migrasi termasuk pembahasan ruang lingkup, bukan asumsi otomatis.",
+          "en": "Data sources and possible transfer need a review first. Integration or migration is part of the scope discussion, not an automatic assumption."
+        }
+      }
+    ]
+  }
+]

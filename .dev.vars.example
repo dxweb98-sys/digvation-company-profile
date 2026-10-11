@@ -1,0 +1,5 @@
+# Local Cloudflare Pages Function only.
+# Copy to .dev.vars when running `npm run preview:pages`.
+INQUIRY_PROVIDER=none
+INQUIRY_DRY_RUN=true
+TURNSTILE_MODE=none
