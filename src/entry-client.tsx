@@ -1,0 +1,10 @@
+import { createRoot, hydrateRoot } from 'react-dom/client';
+import { App } from './App';
+import rawContent from './generated/content.json';
+import type { ContentBundle } from './domain/content';
+import '@fontsource-variable/manrope';
+import './styles.css';
+const root = document.getElementById('root')!;
+const app = <App content={rawContent as ContentBundle} pathname={window.location.pathname} />;
+if (root.hasChildNodes() && root.querySelector('main')) hydrateRoot(root, app);
+else createRoot(root).render(app);

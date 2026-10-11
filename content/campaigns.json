@@ -1,0 +1,125 @@
+[
+  {
+    "id": "website-b2b",
+    "slug": "website-b2b",
+    "status": "published",
+    "noindex": true,
+    "eyebrow": {
+      "id": "Website B2B yang membantu sales",
+      "en": "A B2B website that helps sales"
+    },
+    "title": {
+      "id": "Buat calon pelanggan lebih cepat memahami produk dan lebih mudah menghubungi sales.",
+      "en": "Help prospects understand the product faster and make it easier to reach sales."
+    },
+    "summary": {
+      "id": "Untuk bisnis B2B yang websitenya belum menjelaskan nilai produk dengan jelas, belum membangun kepercayaan, atau membuat inquiry terlalu sulit.",
+      "en": "For B2B businesses whose website does not explain the product value clearly, build enough trust, or make inquiry easy."
+    },
+    "problems": [
+      {
+        "id": "Calon pelanggan datang, tetapi belum menemukan alasan yang cukup jelas untuk melanjutkan.",
+        "en": "Prospects arrive but do not find a clear enough reason to continue."
+      },
+      {
+        "id": "Kategori produk dan informasi penting sulit ditelusuri",
+        "en": "Product categories and important information are difficult to navigate"
+      },
+      {
+        "id": "Spesifikasi muncul sebelum manfaat dan konteksnya dipahami",
+        "en": "Specifications appear before the benefit and context are understood"
+      },
+      {
+        "id": "Jalur inquiry terlalu jauh dari produk yang sedang dilihat",
+        "en": "The inquiry path sits too far from the product being considered"
+      }
+    ],
+    "solutions": [
+      {
+        "id": "Satukan brand, struktur produk, dan jalur inquiry dalam satu pengalaman yang meyakinkan.",
+        "en": "Bring the brand, product structure, and inquiry path into one convincing experience."
+      },
+      {
+        "id": "Susun pesan berdasarkan pertanyaan calon pelanggan, bukan struktur internal perusahaan",
+        "en": "Shape the message around prospect questions, not the company org chart"
+      },
+      {
+        "id": "Dekatkan aksi menghubungi sales ke konteks produk",
+        "en": "Bring the sales action closer to the product context"
+      },
+      {
+        "id": "Bangun fondasi responsif, performa, dan SEO teknis yang siap dikembangkan",
+        "en": "Build a responsive, performant, and technically sound SEO foundation"
+      }
+    ],
+    "proofProject": "poseidon-filter",
+    "primaryCta": {
+      "id": "Bahas website B2B Anda",
+      "en": "Discuss your B2B website"
+    },
+    "faq": [
+      {
+        "question": {
+          "id": "Apakah website harus dibuat ulang dari nol?",
+          "en": "Does the website need to be rebuilt from scratch?"
+        },
+        "answer": {
+          "id": "Tidak selalu. Kami melihat lebih dulu apakah masalahnya ada pada struktur, pesan, pengalaman pengguna, performa, atau fondasi teknis. Perbaikan bisa berupa penyusunan ulang, redesign, atau pembangunan baru sesuai kondisinya.",
+          "en": "Not always. We first assess whether the problem sits in the structure, message, user experience, performance, or technical foundation. The right response may be restructuring, redesign, or a new build."
+        }
+      },
+      {
+        "question": {
+          "id": "Apakah Digvation hanya mengerjakan desain?",
+          "en": "Does Digvation only provide design?"
+        },
+        "answer": {
+          "id": "Tidak. Kami membantu menyusun alur brand dan produk, merancang pengalaman, membangun websitenya, serta menyiapkan fondasi performa, SEO teknis, dan inquiry.",
+          "en": "No. We help shape the brand and product journey, design the experience, build the website, and prepare the performance, technical SEO, and inquiry foundations."
+        }
+      },
+      {
+        "question": {
+          "id": "Bagaimana jika kebutuhan kami belum jelas?",
+          "en": "What if our requirements are not clear yet?"
+        },
+        "answer": {
+          "id": "Mulai dari percakapan singkat. Jika batas masalahnya belum jelas, Digital Discovery membantu memetakan prioritas, arah solusi, tahapan, dan kisaran biaya sebelum pembangunan dimulai.",
+          "en": "Start with a short conversation. If the problem boundary is unclear, Digital Discovery maps the priority, solution direction, roadmap, and budget range before implementation begins."
+        }
+      },
+      {
+        "question": {
+          "id": "Kapan kisaran biaya dapat dibahas?",
+          "en": "When can a budget range be discussed?"
+        },
+        "answer": {
+          "id": "Setelah konteks, kebutuhan, dan batas awalnya cukup jelas. Dengan begitu kisaran biaya mengikuti pekerjaan yang benar-benar diperlukan, bukan angka generik yang menyesatkan.",
+          "en": "Once the context, need, and initial boundaries are clear enough. The range then reflects the work that is genuinely required instead of a misleading generic number."
+        }
+      }
+    ],
+    "tracking": {
+      "id": {
+        "campaignName": "website-b2b-search-id",
+        "conversionLabel": "website-b2b-inquiry"
+      },
+      "en": {
+        "campaignName": "website-b2b-search-en",
+        "conversionLabel": "website-b2b-inquiry"
+      }
+    },
+    "seo": {
+      "id": {
+        "title": "Website B2B yang Membantu Sales | Digvation",
+        "description": "Website B2B untuk memperjelas produk, membangun kepercayaan, dan mendekatkan calon pelanggan ke jalur sales.",
+        "ogImage": "/work/poseidon-filter/cover.webp"
+      },
+      "en": {
+        "title": "A B2B Website That Helps Sales | Digvation",
+        "description": "A B2B website that clarifies products, builds trust, and moves prospects closer to sales.",
+        "ogImage": "/work/poseidon-filter/cover.webp"
+      }
+    }
+  }
+]

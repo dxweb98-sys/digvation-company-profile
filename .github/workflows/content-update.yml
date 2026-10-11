@@ -1,0 +1,45 @@
+name: Rebuild development content
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [digvation-content-updated]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: development-content
+  cancel-in-progress: false
+
+jobs:
+  validate-and-trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: development
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Validate the complete remote snapshot and build every page
+        run: npm run build
+        env:
+          CONTENT_BASE_URL: ${{ vars.DEVELOPMENT_CONTENT_BASE_URL }}
+      - name: Request a development preview rebuild
+        env:
+          DEVELOPMENT_DEPLOY_HOOK_URL: ${{ secrets.DEVELOPMENT_DEPLOY_HOOK_URL }}
+        run: |
+          node --input-type=module <<'JS'
+          const hook=process.env.DEVELOPMENT_DEPLOY_HOOK_URL;
+          if(!hook)throw new Error('Configure DEVELOPMENT_DEPLOY_HOOK_URL for the development branch.');
+          const url=new URL(hook);
+          if(url.protocol!=='https:'||url.hostname!=='api.cloudflare.com')throw new Error('Invalid Cloudflare deploy hook.');
+          let ok=false;
+          try{ok=(await fetch(hook,{method:'POST',redirect:'error',signal:AbortSignal.timeout(15000)})).ok;}catch{}
+          if(!ok)throw new Error('Development rebuild was not accepted.');
+          console.log('Development preview rebuild requested.');
+          JS

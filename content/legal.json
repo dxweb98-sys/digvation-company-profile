@@ -1,0 +1,340 @@
+{
+  "privacy": {
+    "id": {
+      "title": "Privasi yang dijelaskan apa adanya.",
+      "intro": "Kami tidak ingin halaman privasi terdengar aman hanya karena bahasanya formal. Di bawah ini kami jelaskan data apa yang benar-benar diproses oleh website Digvation, kenapa dibutuhkan, ke mana data bisa dikirim, dan bagaimana Anda dapat meminta akses, koreksi, atau penghapusan.",
+      "updated": "Diperbarui 21 Agustus 2026",
+      "sections": [
+        {
+          "id": "siapa-kami",
+          "title": "Siapa yang menangani data",
+          "body": [
+            "Dalam kebijakan ini, “Digvation” berarti operator website digvation.id dan layanan yang menggunakan brand Digvation. Kontak privasi saat ini adalah hello@digvation.id.",
+            "Kami sengaja tidak menampilkan alamat, nomor telepon, atau detail badan hukum yang belum dikonfigurasi dan diverifikasi pada website. Jika informasi bisnis resmi ditambahkan kemudian, halaman ini harus ikut diperbarui."
+          ]
+        },
+        {
+          "id": "data",
+          "title": "Data yang diproses",
+          "body": [
+            "Saat Anda mengirim inquiry, website dapat menerima nama, email, nomor kontak opsional, nama organisasi opsional, dan cerita/konteks kebutuhan yang Anda tulis sendiri.",
+            "Untuk keamanan form, Cloudflare dapat menyediakan alamat IP koneksi ke Pages Function untuk membantu verifikasi anti-abuse dan Turnstile. Jika Turnstile diaktifkan, token diverifikasi server-side melalui Siteverify Cloudflare."
+          ],
+          "bullets": [
+            "Jangan mengirim password, API key, credential, data kartu pembayaran, atau rahasia sistem melalui form.",
+            "Jangan memasukkan data pribadi pihak lain kecuali memang diperlukan dan Anda berwenang membagikannya."
+          ]
+        },
+        {
+          "id": "tujuan-dasar",
+          "title": "Tujuan dan dasar pemrosesan",
+          "body": [
+            "Data inquiry digunakan untuk menanggapi permintaan Anda, memahami konteks sebelum kemungkinan kerja sama, menjaga keamanan form, dan menjalankan tindak lanjut yang Anda minta.",
+            "Untuk analytics opsional, kami menggunakan pilihan consent ketika mode consent diaktifkan. Anda dapat menolak analytics dan tetap menggunakan konten utama website serta mengirim inquiry."
+          ]
+        },
+        {
+          "id": "analytics",
+          "title": "Analytics dan rekaman interaksi",
+          "body": [
+            "Website mendukung Google Analytics 4 untuk page/event measurement, Google Tag Manager sebagai entry point untuk campaign tags, dan Microsoft Clarity untuk memahami pola penggunaan seperti scroll dan interaksi. Provider opsional hanya aktif bila dikonfigurasi; mode bawaan project adalah consent.",
+            "Form inquiry diberi penanda masking untuk Clarity agar isi form tidak direkam sebagai konten yang dapat dibaca dalam session recording. Jika Google Ads, Meta Pixel, atau tag campaign lain diaktifkan kemudian, penggunaannya harus mengikuti consent dan konfigurasi privacy yang berlaku."
+          ]
+        },
+        {
+          "id": "provider",
+          "title": "Provider dan transfer data",
+          "body": [
+            "Bergantung pada konfigurasi production, data dapat diproses oleh provider yang diperlukan untuk fungsi tertentu, misalnya Cloudflare Pages/Turnstile, Resend untuk email, webhook internal/automation, Google Analytics, Google Tag Manager, Microsoft Clarity, atau platform advertising yang memang diaktifkan.",
+            "Sebagian provider dapat memproses data pada infrastruktur di luar Indonesia. Karena itu, pemilihan provider production harus mempertimbangkan persyaratan transfer dan pelindungan data yang berlaku, bukan sekadar kenyamanan teknis."
+          ]
+        },
+        {
+          "id": "retensi",
+          "title": "Retensi dan penghapusan",
+          "body": [
+            "Aplikasi website saat ini tidak memiliki database inquiry publik sebagai sumber penyimpanan utama. Data inquiry dapat tersimpan pada provider pengiriman, inbox, atau workflow operasional yang dipakai untuk menindaklanjuti permintaan.",
+            "Kami menyimpan data hanya selama masih dibutuhkan untuk percakapan, pelaksanaan project, administrasi, keamanan, atau kewajiban hukum. Bila Anda ingin data tertentu dihapus lebih cepat, kirim permintaan melalui email dan sertakan informasi yang cukup agar kami dapat menemukan record yang dimaksud."
+          ]
+        },
+        {
+          "id": "keamanan",
+          "title": "Langkah keamanan yang benar-benar ada di website",
+          "body": [
+            "Kami tidak mengklaim bahwa sistem apa pun “100% aman”. Kontrol yang memang ada pada implementasi website mencakup validasi server di Pages Function, batas ukuran request, honeypot, Turnstile opsional dengan verifikasi server-side, server-only secret untuk provider, masking form untuk Clarity, dan error message yang tidak sengaja menulis isi inquiry ke log aplikasi. Rate limiting tambahan dapat diterapkan melalui kontrol Cloudflare di level edge.",
+            "Jika terjadi insiden data, penanganan dan pemberitahuan dilakukan sesuai dampak insiden dan kewajiban hukum yang berlaku."
+          ]
+        },
+        {
+          "id": "hak",
+          "title": "Hak dan permintaan terkait data",
+          "body": [
+            "Anda dapat menghubungi hello@digvation.id untuk meminta informasi tentang data Anda, koreksi data yang tidak akurat, penarikan persetujuan yang relevan, pembatasan, atau penghapusan sesuai ketentuan yang berlaku.",
+            "Agar tidak memberikan data kepada orang yang salah, kami dapat meminta verifikasi yang proporsional sebelum memenuhi permintaan tertentu."
+          ]
+        },
+        {
+          "id": "perubahan",
+          "title": "Perubahan kebijakan",
+          "body": [
+            "Jika cara website mengumpulkan data, provider, analytics, atau alur inquiry berubah secara material, kebijakan ini harus ikut diperbarui. Tanggal pembaruan ditampilkan di bagian atas halaman agar perubahan mudah dikenali."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Privacy, explained without hiding behind legal language.",
+      "intro": "We do not want this page to sound safe simply because it is formal. This policy explains what the Digvation website actually processes, why it is needed, where data may go, and how you can ask for access, correction, restriction, or deletion.",
+      "updated": "Updated 21 August 2026",
+      "sections": [
+        {
+          "id": "who",
+          "title": "Who handles the data",
+          "body": [
+            "In this policy, “Digvation” means the operator of digvation.id and services using the Digvation brand. The current privacy contact is hello@digvation.id.",
+            "We do not display a legal entity, address, or phone number that has not been configured and verified. This policy should be updated when official business details are added."
+          ]
+        },
+        {
+          "id": "data",
+          "title": "Data we process",
+          "body": [
+            "An inquiry can include your name, email, optional contact number, optional organization name, and the need/context you choose to write.",
+            "For form security, Cloudflare may make the connection IP available to the Pages Function for abuse protection and Turnstile verification. If Turnstile is enabled, its token is validated server-side through Cloudflare Siteverify."
+          ],
+          "bullets": [
+            "Do not submit passwords, API keys, credentials, payment card data, or system secrets through the form.",
+            "Do not include another person’s personal data unless it is necessary and you are authorized to share it."
+          ]
+        },
+        {
+          "id": "purpose",
+          "title": "Purpose and processing basis",
+          "body": [
+            "Inquiry data is used to respond to your request, understand context before a potential engagement, secure the form, and carry out the follow-up you requested.",
+            "Optional analytics uses the visitor’s choice when consent mode is enabled. You can decline analytics and still access the main website content and submit an inquiry."
+          ]
+        },
+        {
+          "id": "analytics",
+          "title": "Analytics and interaction measurement",
+          "body": [
+            "The website supports Google Analytics 4 for page/event measurement, Google Tag Manager as the entry point for campaign tags, and Microsoft Clarity for interaction patterns such as scrolling. Optional providers only run when configured; the project defaults to consent mode.",
+            "The inquiry form is marked for Clarity masking so the form content is not captured as readable content in session recordings. If Google Ads, Meta Pixel, or other campaign tags are enabled later, they must follow the configured consent and privacy controls."
+          ]
+        },
+        {
+          "id": "providers",
+          "title": "Providers and data transfers",
+          "body": [
+            "Depending on production configuration, data may be processed by providers needed for a specific function, such as Cloudflare Pages/Turnstile, Resend for email, an internal/automation webhook, Google Analytics, Google Tag Manager, Microsoft Clarity, or advertising platforms that are actually enabled.",
+            "Some providers may process data on infrastructure outside Indonesia. Production provider selection should therefore consider applicable transfer and protection requirements, not only technical convenience."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Retention and deletion",
+          "body": [
+            "The current website application does not use a public inquiry database as its primary storage. Inquiry data may remain in the delivery provider, inbox, or operational workflow used to follow up.",
+            "We retain data only while needed for the conversation, project delivery, administration, security, or legal obligations. You may request earlier deletion by email and provide enough information for us to locate the relevant record."
+          ]
+        },
+        {
+          "id": "security",
+          "title": "Security controls that actually exist",
+          "body": [
+            "We do not claim that any system is “100% secure”. The controls implemented in this website include server validation in a Pages Function, a request-size limit, a honeypot, optional Turnstile with server-side verification, server-only provider secrets, Clarity form masking, and application error logging that does not intentionally log the inquiry payload. Additional rate limiting can be configured at the Cloudflare edge.",
+            "If a data incident occurs, response and notification should follow the impact of the incident and applicable legal obligations."
+          ]
+        },
+        {
+          "id": "rights",
+          "title": "Your data requests",
+          "body": [
+            "Contact hello@digvation.id to request information about your data, correction, relevant consent withdrawal, restriction, or deletion where applicable.",
+            "We may use proportionate verification before fulfilling certain requests so that personal data is not disclosed to the wrong person."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Policy changes",
+          "body": [
+            "If the website materially changes how it collects data, its providers, analytics, or inquiry flow, this policy should change with it. The update date is shown at the top of the page."
+          ]
+        }
+      ]
+    }
+  },
+  "terms": {
+    "id": {
+      "title": "Aturan website, bukan tulisan kecil yang menjebak.",
+      "intro": "Terms ini mengatur penggunaan website Digvation. Untuk project nyata, scope, fee, timeline, acceptance, hak atas hasil kerja, support, kerahasiaan, dan tanggung jawab hanya mengikuti proposal, SOW, atau agreement tertulis yang disetujui. Hal tersebut tidak mengikuti asumsi dari halaman marketing.",
+      "updated": "Diperbarui 21 Agustus 2026",
+      "sections": [
+        {
+          "id": "cakupan",
+          "title": "Cakupan terms ini",
+          "body": [
+            "Terms ini berlaku untuk penggunaan website Digvation, termasuk halaman solusi, work/case study, form inquiry, preview project, dan materi yang dipublikasikan melalui website.",
+            "Terms ini tidak menggantikan kontrak project. Jika ada perbedaan antara halaman website dan dokumen project yang ditandatangani/disetujui, dokumen project yang lebih spesifik menjadi acuan untuk engagement tersebut."
+          ]
+        },
+        {
+          "id": "inquiry",
+          "title": "Inquiry bukan persetujuan project",
+          "body": [
+            "Mengirim form berarti Anda meminta Digvation membaca konteks dan, bila relevan, menindaklanjuti percakapan. Inquiry tidak menjamin bahwa Digvation akan menerima project, tersedia pada timeline tertentu, atau menawarkan harga tertentu.",
+            "Project baru dianggap memiliki komitmen ketika scope dan ketentuan komersial yang relevan sudah disepakati secara tertulis oleh pihak yang berwenang."
+          ]
+        },
+        {
+          "id": "project",
+          "title": "Apa yang harus ada di dokumen project",
+          "body": [
+            "Untuk menghindari asumsi, proposal/SOW/agreement sebaiknya menjelaskan setidaknya scope dan deliverables, dependency dan input client, timeline atau milestone, fee dan pembayaran, revision/acceptance, ownership dan lisensi, confidentiality, hosting/deployment, support/maintenance, serta ketentuan perubahan scope.",
+            "Kami tidak menetapkan aturan project yang sama untuk semua client lewat Terms website ini karena jenis pekerjaan Digvation dapat berbeda dari website, internal system, automation, integration, data/AI, sampai IoT."
+          ]
+        },
+        {
+          "id": "portfolio",
+          "title": "Portfolio, preview, dan website client",
+          "body": [
+            "Case study menjelaskan konteks berdasarkan informasi yang layak dipublikasikan. Data yang belum diverifikasi tidak boleh dipresentasikan sebagai metric, testimonial, atau hasil nyata.",
+            "Preview live dapat memuat website pihak ketiga melalui embed atau membuka website aslinya. Website client dapat berubah setelah project selesai, sehingga tampilan live saat ini tidak selalu identik dengan kondisi saat Digvation menyerahkan pekerjaan."
+          ]
+        },
+        {
+          "id": "ip",
+          "title": "Brand dan hak atas materi website",
+          "body": [
+            "Logo Digvation, identitas visual, copy, layout, ilustrasi, dokumentasi publik, serta materi case study pada website dilindungi sebagai karya dan/atau aset brand sesuai hak yang berlaku.",
+            "Anda boleh membagikan link dan mengutip secara wajar dengan atribusi. Anda tidak boleh menyalin materi secara substansial, menghapus atribusi, memakai brand Digvation untuk menyesatkan, atau mengklaim pekerjaan Digvation sebagai karya pihak lain. Hak atas deliverable client sendiri mengikuti agreement project masing-masing."
+          ]
+        },
+        {
+          "id": "acceptable-use",
+          "title": "Penggunaan yang tidak diperbolehkan",
+          "body": [
+            "Jangan mencoba mengganggu keamanan website, melakukan abuse terhadap form, mengirim payload berbahaya, melakukan scraping yang membebani layanan secara tidak wajar, atau menggunakan website untuk melanggar hak pihak lain.",
+            "Kami dapat membatasi request yang terdeteksi sebagai spam atau abuse untuk menjaga layanan tetap dapat digunakan."
+          ]
+        },
+        {
+          "id": "external",
+          "title": "Layanan dan link pihak ketiga",
+          "body": [
+            "Website dapat menghubungkan atau menampilkan service pihak ketiga, misalnya website client, provider analytics, CAPTCHA, atau tool lain. Kebijakan, uptime, dan perubahan pada service tersebut berada di bawah kendali providernya masing-masing.",
+            "Link eksternal diberikan untuk konteks atau akses. Kehadiran link tidak berarti Digvation mengendalikan seluruh isi atau praktik pihak ketiga."
+          ]
+        },
+        {
+          "id": "accuracy",
+          "title": "Informasi, perubahan, dan ketersediaan",
+          "body": [
+            "Kami berusaha menjaga informasi website tetap akurat dan relevan, tetapi halaman marketing tidak dimaksudkan sebagai spesifikasi kontraktual yang permanen. Layanan, capability, contoh work, atau copy dapat diperbarui ketika bisnis berkembang.",
+            "Kami juga tidak menjanjikan website akan selalu bebas gangguan. Jika ada komitmen uptime, SLA, support, atau availability untuk project client, ketentuannya harus ditulis secara khusus dalam agreement project."
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Privasi",
+          "body": [
+            "Penggunaan data pribadi melalui website dijelaskan secara terpisah di Privacy Policy. Silakan baca /privacy terutama sebelum mengirim inquiry atau mengaktifkan analytics opsional."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Perubahan terms",
+          "body": [
+            "Terms dapat berubah jika fungsi website atau model layanan berubah. Versi terbaru berlaku untuk penggunaan website setelah tanggal pembaruan yang ditampilkan di halaman ini. Perubahan Terms website tidak secara otomatis mengubah agreement project yang sudah disepakati."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Website terms without hiding the important part in fine print.",
+      "intro": "These terms govern use of the Digvation website. For real projects, scope, fees, timing, acceptance, ownership, support, confidentiality, and responsibilities are governed by the written proposal, SOW, or agreement that is actually accepted. They are not governed by assumptions from a marketing page.",
+      "updated": "Updated 21 August 2026",
+      "sections": [
+        {
+          "id": "scope",
+          "title": "What these terms cover",
+          "body": [
+            "These terms apply to use of the Digvation website, including solution pages, work/case studies, the inquiry form, project previews, and public materials.",
+            "They do not replace a project contract. If a signed/accepted project document conflicts with a general website statement, the more specific project document governs that engagement."
+          ]
+        },
+        {
+          "id": "inquiry",
+          "title": "An inquiry is not project acceptance",
+          "body": [
+            "Submitting the form asks Digvation to review the context and, where relevant, continue the conversation. It does not guarantee project acceptance, availability on a certain timeline, or a particular price.",
+            "A project commitment exists only when the relevant scope and commercial terms are agreed in writing by authorized parties."
+          ]
+        },
+        {
+          "id": "project",
+          "title": "What a project document should define",
+          "body": [
+            "To avoid assumptions, the proposal/SOW/agreement should define at least scope and deliverables, client dependencies and inputs, milestones, fees and payment, revisions/acceptance, ownership and licensing, confidentiality, hosting/deployment, support/maintenance, and scope-change handling.",
+            "We do not force one set of project rules through these website terms because Digvation engagements can range from websites and internal systems to automation, integration, data/AI, and IoT."
+          ]
+        },
+        {
+          "id": "portfolio",
+          "title": "Portfolio, previews, and client websites",
+          "body": [
+            "Case studies describe context based on information appropriate to publish. Unverified data should not be presented as a metric, testimonial, or real outcome.",
+            "A live preview may embed or link to a third-party/client website. Client websites can change after delivery, so the current live version may not be identical to the state Digvation originally delivered."
+          ]
+        },
+        {
+          "id": "ip",
+          "title": "Brand and site materials",
+          "body": [
+            "Digvation logos, visual identity, copy, layouts, illustrations, public documentation, and case-study materials are protected as works and/or brand assets under applicable rights.",
+            "You may share links and make reasonable attributed references. You may not substantially copy the materials, remove attribution, use the Digvation brand misleadingly, or claim Digvation work as another party’s work. Ownership of client deliverables follows each project agreement."
+          ]
+        },
+        {
+          "id": "acceptable-use",
+          "title": "Acceptable use",
+          "body": [
+            "Do not attempt to compromise the site, abuse the form, send malicious payloads, perform scraping that unreasonably burdens the service, or use the website to infringe another party’s rights.",
+            "Requests detected as spam or abuse may be limited to keep the service usable."
+          ]
+        },
+        {
+          "id": "external",
+          "title": "Third-party services and links",
+          "body": [
+            "The website may link to or display third-party services such as client websites, analytics providers, CAPTCHA, or other tools. Their policies, uptime, and changes are controlled by their respective providers.",
+            "An external link is provided for context or access and does not mean Digvation controls all content or practices of that third party."
+          ]
+        },
+        {
+          "id": "accuracy",
+          "title": "Information, changes, and availability",
+          "body": [
+            "We aim to keep the website accurate and relevant, but marketing pages are not permanent contractual specifications. Services, capabilities, work examples, or copy may evolve as the business changes.",
+            "The website is not promised to be interruption-free. Any client-specific SLA, uptime, support, or availability commitment must be stated in the project agreement."
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Privacy",
+          "body": [
+            "Personal-data practices are explained separately in the Privacy Policy at /en/privacy, particularly before you submit an inquiry or enable optional analytics."
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Changes to these terms",
+          "body": [
+            "These terms may change when the website or service model changes. The latest version applies to website use after the update date shown here. Updating the website terms does not automatically change an existing agreed project contract."
+          ]
+        }
+      ]
+    }
+  }
+}

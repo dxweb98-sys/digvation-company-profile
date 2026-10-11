@@ -1,0 +1,142 @@
+[
+  {
+    "id": "website",
+    "slug": "website",
+    "icon": "website",
+    "title": {
+      "id": "Website & kehadiran digital",
+      "en": "Websites & digital presence"
+    },
+    "short": {
+      "id": "Bantu pelanggan mengenal dan menghubungi bisnis kalian.",
+      "en": "Help customers understand and reach your business."
+    },
+    "description": {
+      "id": "Website dengan informasi yang jelas, arah tindakan yang mudah, dan pengalaman yang nyaman di berbagai perangkat.",
+      "en": "A website with clear information, simple next steps and a comfortable experience across devices."
+    },
+    "for": {
+      "id": "Bisnis yang ingin punya tempat untuk memperkenalkan layanan, karya, dan informasi penting.",
+      "en": "Businesses that need a place to present services, work and essential information."
+    },
+    "deliverables": [
+      {
+        "id": "Struktur informasi & halaman",
+        "en": "Information and page structure"
+      },
+      {
+        "id": "Desain responsif & pengembangan",
+        "en": "Responsive design and development"
+      },
+      {
+        "id": "Dasar SEO & pengukuran kunjungan",
+        "en": "SEO foundations and visit measurement"
+      }
+    ]
+  },
+  {
+    "id": "system",
+    "slug": "system",
+    "icon": "system",
+    "title": {
+      "id": "Sistem untuk pekerjaan sehari-hari",
+      "en": "Systems for everyday work"
+    },
+    "short": {
+      "id": "Rapikan alur yang masih manual atau tersebar.",
+      "en": "Make scattered or manual workflows easier to manage."
+    },
+    "description": {
+      "id": "Kita petakan pekerjaan yang berulang, tentukan prioritas, lalu bangun sistem yang mengikuti cara kerja tim.",
+      "en": "We map recurring work, agree on priorities, then build a system around your team’s workflow."
+    },
+    "for": {
+      "id": "Tim yang mulai kesulitan merapikan transaksi, data pelanggan, atau pekerjaan operasional.",
+      "en": "Teams finding it harder to manage transactions, customer information or operations."
+    },
+    "deliverables": [
+      {
+        "id": "Pemetaan alur bisnis",
+        "en": "Business workflow mapping"
+      },
+      {
+        "id": "Sistem & integrasi sesuai ruang lingkup",
+        "en": "Systems and integrations within agreed scope"
+      },
+      {
+        "id": "Panduan penggunaan & serah terima",
+        "en": "User guidance and handover"
+      }
+    ]
+  },
+  {
+    "id": "product",
+    "slug": "product",
+    "icon": "product",
+    "title": {
+      "id": "Produk digital",
+      "en": "Digital products"
+    },
+    "short": {
+      "id": "Dari kebutuhan tertentu ke alur yang bisa digunakan.",
+      "en": "From a specific need to a usable workflow."
+    },
+    "description": {
+      "id": "Kenali Digvation POS dan Workshop, atau diskusikan kebutuhan produk yang ingin kalian bangun. Kecocokan produk dibahas lebih dulu.",
+      "en": "Explore Digvation POS and Workshop, or discuss a product you want to build. We discuss whether it fits before moving forward."
+    },
+    "for": {
+      "id": "Bisnis jasa dan bengkel, atau tim dengan kebutuhan produk digital khusus.",
+      "en": "Service businesses, workshops, or teams with a specific digital product need."
+    },
+    "deliverables": [
+      {
+        "id": "Pembahasan kebutuhan & use case",
+        "en": "Needs and use-case discussion"
+      },
+      {
+        "id": "Desain alur & antarmuka",
+        "en": "Workflow and interface design"
+      },
+      {
+        "id": "Pengembangan & pengujian sesuai kesepakatan",
+        "en": "Development and testing as agreed"
+      }
+    ]
+  },
+  {
+    "id": "support",
+    "slug": "support",
+    "icon": "support",
+    "title": {
+      "id": "Pendampingan & pengembangan",
+      "en": "Support & further development"
+    },
+    "short": {
+      "id": "Setelah rilis, ada langkah berikutnya yang jelas.",
+      "en": "A clear next step after launch."
+    },
+    "description": {
+      "id": "Bentuk dukungan disesuaikan: panduan, pemeliharaan, penanganan kendala, atau pengembangan lanjutan. Ruang lingkupnya disepakati bersama.",
+      "en": "Support can include guidance, maintenance, troubleshooting or further development. Its scope is agreed together."
+    },
+    "for": {
+      "id": "Bisnis yang ingin menjaga sistem tetap bisa digunakan dan berkembang sesuai kebutuhan.",
+      "en": "Businesses that want their systems to stay useful and develop as needs change."
+    },
+    "deliverables": [
+      {
+        "id": "Dokumentasi & panduan tim",
+        "en": "Documentation and team guidance"
+      },
+      {
+        "id": "Pemeliharaan dengan ruang lingkup jelas",
+        "en": "Maintenance with a defined scope"
+      },
+      {
+        "id": "Diskusi perbaikan & pengembangan",
+        "en": "Improvement and development discussions"
+      }
+    ]
+  }
+]

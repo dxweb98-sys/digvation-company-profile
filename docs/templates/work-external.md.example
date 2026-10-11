@@ -1,0 +1,18 @@
+---
+entryType: external
+routeSlug: project-slug
+locale: id
+title: Project Name
+client: Client Name
+industry: Industry
+year: 2026
+projectType: Website / Digital Experience
+summary: Satu atau dua kalimat tentang apa yang Digvation buat dan untuk kebutuhan apa.
+status: hidden
+featured: false
+draft: true
+order: 99
+visualVariant: paper
+coverImage: /work/project-slug/cover.webp
+liveUrl: https://example.com/
+---

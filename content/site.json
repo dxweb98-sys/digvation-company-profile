@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "name": "Digvation",
+  "siteUrl": "https://digvation.id",
+  "tagline": {
+    "id": "Partner digital kalian",
+    "en": "Your digital partner"
+  },
+  "description": {
+    "id": "Sejak 2022, Digvation membantu usaha kecil dan menengah menjalani digitalisasi, dari website dan sistem kerja sampai pendampingan setelah digunakan.",
+    "en": "Since 2022, Digvation has helped small and medium businesses go digital, from websites and everyday systems to support after launch."
+  },
+  "heroImage": "/images/hero-team.webp",
+  "contact": {
+    "email": "hello@digvation.id",
+    "whatsapp": "",
+    "endpoint": "/api/inquiry",
+    "responseNote": {
+      "id": "Kita mulai dari cerita bisnis kalian. Kebutuhan, ruang lingkup, dan pendampingan dibahas bersama sebelum proyek berjalan.",
+      "en": "We start with your business story. Needs, scope and ongoing support are agreed together before the project begins."
+    },
+    "turnstileSiteKey": ""
+  },
+  "analytics": {
+    "gaId": "",
+    "metaPixelId": "",
+    "mode": "consent",
+    "gtmId": "",
+    "clarityId": ""
+  },
+  "social": [],
+  "googleSiteVerification": "",
+  "foundedYear": 2022
+}

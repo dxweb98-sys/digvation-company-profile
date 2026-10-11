@@ -1,0 +1,45 @@
+---
+entryType: case-study
+routeSlug: project-slug
+locale: id
+title: Project Name
+client: Client Name
+industry: Industry
+year: 2026
+projectType: Digital Experience
+summary: Ringkasan singkat project.
+status: hidden
+featured: false
+draft: true
+order: 99
+visualVariant: navy
+coverImage: /work/project-slug/cover.webp
+challenge: Masalah bisnis yang ingin diselesaikan.
+context: Kondisi awal sebelum project dimulai.
+previousCondition: Kondisi atau cara kerja sebelumnya.
+businessRequirement: Perubahan yang benar-benar dibutuhkan bisnis.
+insight: Hal penting yang ditemukan selama discovery.
+approach: Bagaimana Digvation mendekati project.
+solution: Solusi yang dibangun.
+capabilities:
+  - Capability yang digunakan
+built:
+  - Deliverable pertama
+  - Deliverable kedua
+technologies:
+  - Technology / capability
+results:
+  - Hasil kualitatif atau kuantitatif yang terverifikasi
+outcome: Hasil yang benar-benar dapat diverifikasi. Jangan membuat angka palsu.
+nextStep: Improvement atau langkah lanjutan.
+relatedSolution: digital-build
+liveUrl: https://example.com
+browserScreenshots:
+  - /work/project-slug/cover.webp
+gallery:
+  - /work/project-slug/cover.webp
+seo:
+  title: Project Name | Case Study
+  description: Deskripsi SEO project.
+  ogImage: /work/project-slug/cover.webp
+---
